@@ -17,7 +17,7 @@ p {
   color: rgba(0, 0, 0, 0.671);
 }
 
-div {
+.list {
   list-style-position: inside;
   text-align: center;
   font-size: 21px;
@@ -36,4 +36,39 @@ div {
 
 h2 {
   color: rgba(0, 0, 0, 0.829);
+}
+
+.menu-links {
+  padding: 10px;
+  background-color: rgba(223, 208, 2, 0.342);
+  display: inline-block;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.recipes-steps {
+  padding: 10px;
+  background-color: rgba(223, 208, 2, 0.342);
+  border-radius: 25px;
+  display: block;
+  margin: 0px 150px 15px;
+}
+
+.image {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.title {
+  border-bottom: 10px solid rgba(223, 208, 2, 0.342);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.menu-links,
+.recipes-steps,
+.title {
+  background-color: rgba(223, 208, 2, 0.342);
+  border-bottom: 10px solid rgba(223, 208, 2, 0.342);
 }
