@@ -1,5 +1,16 @@
 body {
+  margin: 0px;
   background-color: rgb(250, 250, 120);
+}
+.header {
+  background: rgba(223, 208, 2, 0.226);
+  border-bottom: 1px solid rgba(223, 208, 2, 0.466);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-start;
+  padding: 2px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -44,6 +55,7 @@ h2 {
   display: inline-block;
   border-radius: 25px;
   margin: 5px;
+  font-weight: bold;
 }
 
 .recipes-steps {
@@ -56,7 +68,12 @@ h2 {
 
 .image {
   border-radius: 25px;
-  width: 100%;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.596);
+  align-self: flex-start;
 }
 
 .title {
@@ -71,4 +88,43 @@ h2 {
 .title {
   background-color: rgba(223, 208, 2, 0.342);
   border-bottom: 10px solid rgba(223, 208, 2, 0.342);
+}
+
+a {
+  /* Removes line under links */
+  text-decoration: none;
+}
+
+.menu-list {
+  /* Removes dots from lists */
+  list-style-type: none;
+}
+
+.photo-description {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  margin: 25px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  border: 5px dotted red;
+  border-radius: 25px;
+  width: 600px;
+}
+
+.flex-list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.flex-list a {
+  font-size: 26px;
+  color: black;
 }
